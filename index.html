@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Montserrat+Alternates:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Touch-Nums</title>
+  </head>
+  <body onload="init()">
+    <div class="container">
+      <h1>👉 Touch the Numbers 🔢</h1>
+      <h2>Choose mode</h2>
+      <button class="mode" onclick="easyMode()">Easy Mode</button>
+      <button class="mode" onclick="mediumMode()">Medium Mode</button>
+      <button class="mode" onclick="hardMode()">Hard Mode</button>
+      <h3>Next Number <span class="current-num">1</span></h3>
+      <h3 class="game-time">⌛</h3>
+      <button class="new-game mode" onclick="init()">New Game!</button>
+      <table>
+        <tbody class="board"></tbody>
+      </table>
+    </div>
+    <script src="js/inits.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

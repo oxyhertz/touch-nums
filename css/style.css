@@ -1,0 +1,99 @@
+body {
+  height: 100vh;
+  background-color: #faaca8;
+  background-image: linear-gradient(19deg, #faaca8 0%, #ddd6f3 100%);
+  font-family: "Arvo", serif;
+}
+
+td {
+  border: 5px solid salmon;
+  padding: 30px;
+  cursor: pointer;
+  background-color: #ffffff;
+  opacity: 50%;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 25%;
+  box-shadow: 0 0 15px lightcoral;
+}
+
+td:hover {
+  opacity: 20%;
+}
+
+.clicked {
+  background-color: lightcoral;
+  opacity: 80%;
+}
+.clicked:hover {
+  opacity: 100%;
+}
+
+h1 {
+  border-bottom: 3px solid rgba(228, 32, 58, 0.288);
+  border-radius: 10%;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+h3 {
+  display: inline-block;
+  margin-right: 100px;
+}
+
+h3:last-child {
+  margin-right: 0;
+}
+
+.container {
+  padding: 10px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.356);
+  text-align: center;
+  width: 60%;
+  box-shadow: 0 0 10px #d77fa1;
+  border-radius: 2%;
+}
+
+table {
+  margin: auto;
+}
+
+.mode {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 0.16em solid salmon;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ce8484;
+  text-align: center;
+  transition: all 0.15s;
+  border-radius: 5%;
+}
+
+.mode:hover {
+  color: #dddddd;
+  border-color: #dddddd;
+}
+
+.mode:active {
+  color: #bbbbbb;
+  border-color: #bbbbbb;
+}
+
+.new-game {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-color: lightsalmon;
+}
+
+.game-end {
+  background-color: salmon;
+  color: white;
+}
